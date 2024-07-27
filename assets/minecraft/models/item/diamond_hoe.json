@@ -1,0 +1,22 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/diamond_hoe"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1001 }, "model": "item/weapons/ar" },
+    {
+      "predicate": { "custom_model_data": 1002 },
+      "model": "item/weapons/pistol"
+    },
+    {
+      "predicate": { "custom_model_data": 1003 },
+      "model": "item/weapons/shotgun"
+    },
+    { "predicate": { "custom_model_data": 1004 }, "model": "item/weapons/sr" },
+    {
+      "predicate": { "custom_model_data": 1005 },
+      "model": "item/weapons/submachinegun"
+    }
+  ]
+}
